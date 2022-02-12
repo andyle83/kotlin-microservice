@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: "development"
+
+service:
+  message:
+    text: "welcome"
+---
+spring:
+  profiles: "development"
+
+service:
+  message:
+    text: "dev welcome"
+---
+spring:
+  profiles: "production"
+
+service:
+  message:
+    text: "prod welcome"
